@@ -142,8 +142,8 @@ text-align: center;padding: 0.5em ;font-size: 1.1em;width: 80%;margin: auto;marg
     background-color:rgb(255, 255, 255); border-radius: 5px;
   }
   .precio{
-    text-align: center;
-    background-color: #cad6ff;height: 3em;
+    text-align: center;display: flex;justify-content: center;justify-self: center;align-items: center;
+    background-color: #cad6ff;height: 3.5em;
   }
   .precio span{
     font-size: 2em;
