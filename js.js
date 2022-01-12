@@ -4,7 +4,7 @@ function disapear(){
     document.getElementById("grid-page").style.display = "block"
 }
 document.getElementById("helloscreen").style.display = "none"
-    document.getElementById("grid-page").style.display = "block"
+document.getElementById("grid-page").style.display = "block"
 var acc = document.getElementsByClassName("accordion");
 var i;
 

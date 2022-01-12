@@ -94,7 +94,7 @@ body{
     height: 10%;
   }
   .foto-portada{
-   background-image: url(/assets/78784455_3617939154897787_6028415534024884224_n.jpg);
+   background-image: url(/assets/mobile\ back.jpg);
 height: 25em; width: 100%; background-size:cover;
   }
 @media screen and (min-width:1380px){
@@ -214,6 +214,10 @@ position: relative;top: 1.5px;
     100%{background-color:rgb(62, 176, 214);}
   }
 
+  .foto-portada{
+    background-image: url(/assets/78784455_3617939154897787_6028415534024884224_n.jpg);
+ height: 25em; width: 100%; background-size:cover;
+   }
   .sobrenos h1{
     padding: 10em 10em;
   }
