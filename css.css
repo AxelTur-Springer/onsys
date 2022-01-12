@@ -71,12 +71,12 @@ body{
     text-align: center;background-color: black;margin: 0%;color: white;
   }
   .navbar{
-    display: flex;justify-content: space-around;align-items: center;
-    background-color: black;height: 10%;
+    display: flex;justify-content: center;align-items: center;
+    background-color: black;height: 15%;
   
   }
   .navbar button{
-    width: 8.5em;height: 3.5em;
+    width: 6em;height: 3.5em;
     background-color:inherit;border: none;color: white;border-radius: 10px;
   }
   .navbar button:hover{
