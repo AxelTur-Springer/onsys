@@ -3,15 +3,14 @@ function disapear(){
     document.getElementById("helloscreen").style.display = "none"
     document.getElementById("grid-page").style.display = "block"
 }
-document.getElementById("helloscreen").style.display = "none"
-document.getElementById("grid-page").style.display = "block"
-var acc = document.getElementsByClassName("accordion");
-var i;
+
+let acc = document.getElementsByClassName("accordion");
+let i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
+    let panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
@@ -20,17 +19,13 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scroll()};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+let navbar = document.getElementById("navbar");
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+let sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function scroll() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
